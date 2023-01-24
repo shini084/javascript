@@ -20,7 +20,13 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus rem eligendi tempore assumenda sint quam tenetur neque, hic possimus eius laborum, et ipsam, cum fuga voluptas. Quibusdam, tenetur itaque?</p>
 </body>
 <script>
-    var nome = window.prompt('qual o seu nome?')
-    window.alert('é um grande prazer te conhecer, ' + nome + '!')
+    var n1 = Number(window.prompt('digite um número'))
+    var n2 = Number(window.prompt('digite outro número'))
+    var soma = n1 + n2  
+    window.alert('a soma dos números é: ' + String(soma))
+    window.alert(`sim é ${soma} mesmo`)
+    soma.length //quantidade de caracteres
+    soma.toUpperCase() //deixa maiusculo
+    soma.toLowerCase() //deixa minusculo
 </script>
 </html>
