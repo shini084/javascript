@@ -1,0 +1,1 @@
+console.log('o cosole funcionou corretamente')
