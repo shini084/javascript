@@ -2,11 +2,8 @@
 
 body{
     background-color: rgb(70, 142, 236);
-    font: normal 15px Arial;
+    font: normal 20px Arial;
     color: white;
-}
-
-header{
     text-align: center;
 }
 
@@ -18,9 +15,16 @@ section{
     width: 500px;
     margin: auto;
     color: black;
+    font-size: 20px;
 }
 
+#foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: 20px auto;
+} 
+
 footer{
-    text-align: center;
     font-style: italic;
 }
