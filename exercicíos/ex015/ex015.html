@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ex014-style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="ex015-style.css">
+    <title>Verificador de idade</title>
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
         <div>
-            Testando
+            <form action="document.php" method="get">
+                <label for="ianoNascimento">
+                    Ano de Nascimento:
+                </label>
+                <input type="number" name="anoNascimento" id="ianoNascimento" max="2023" value="2000" min="1900"> <br>
+                <p>
+                    Sexo:
+                    <input type="radio" name="sexo" id="imasculino">
+                    <label for="imasculino">Masculino</label>
+                    <input type="radio" name="sexo" id="ifeminino">
+                    <label for="ifeminino">Feminino</label>
+                </p>
+                <input type="button" id="verif" value="Verificar"  onclick="verificar()">
+            </form>
         </div>
-        <div></div>
+        <div id="frase"></div>
+        <div id="iresultado">Preencha os dados acima para ver o resultado!
+        </div>
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
     </footer>
-    <script src="ex014-scripty.js"></script>
+    <script src="ex015-scripty.js"></script>
 </body>
 </html>
